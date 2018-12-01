@@ -6,10 +6,14 @@ Recon Server
 Installation
 ------------
 
+::
+
    pip install -r requirements.txt
    pip install -e .
 
 Run
 ---
+
+::
 
    recon run
