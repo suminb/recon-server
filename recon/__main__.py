@@ -1,7 +1,7 @@
 import click
 
 from recon import create_app, run_server
-from recon.models import db, Resource
+from recon.models import db
 
 
 @click.group()
