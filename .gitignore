@@ -1,3 +1,6 @@
+# Have provision.sh.dist checked in the repo, but never have provision.sh
+provision.sh
+
 .*.swp
 
 __pycache__
