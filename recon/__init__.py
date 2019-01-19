@@ -47,5 +47,5 @@ def create_app(name=__name__, config=None):
 
 def run_server(app):
     host = os.environ.get('RECON_HOST', '0.0.0.0')
-    port = int(os.environ.get('RECON_PORT', 8080))
+    port = int(os.environ.get('RECON_PORT', 8085))
     app.run(host=host, port=port)
